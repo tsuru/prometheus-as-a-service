@@ -43,6 +43,6 @@ There's an example of app created for testing purposes[5]
 ## Learning Tsuru
 [1] Tsuru's documentation: https://tsuru.io/  
 [2] Open TSDB: http://opentsdb.net/  
-[3] https://github.com/prometheus/prometheus  
+[3] Prometheus' docker image repo: https://github.com/prometheus/prometheus  
 [4] Creating Tsuru's services: https://docs.tsuru.io/stable/services/build.html  
 [5] Creating app with metrics: https://github.com/tsuru/prometheus-as-a-service/tree/master/app-demo  
