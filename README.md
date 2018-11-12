@@ -35,7 +35,7 @@ There's an example of app created for testing purposes[5]
 
 ## Next Steps
 1- First we need to use kubernetes to mount a tmpfs to write data into memory. Its writing these data to the disk and its bad. =(  
-1.1- To accomplish this we must use kubernetes to mount this filer. We use kubernetes through Tsuru or directly.
+1.1- To accomplish this we must use kubernetes to mount this filer. We use kubernetes through Tsuru or directly.  
 2- It should support large memory plans to retain more data  
 3- It should scrap(get) metrics from apps from all units. Today its scraping only the app's endpoint  
 4- We should finish implementing the status/remove routes for this service. Its only creating the instance and binding it to the app  
