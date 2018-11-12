@@ -1,0 +1,6 @@
+id: prometheus-as-a-service
+username: teste
+password: teste
+team: admin
+endpoint:
+  production: <prometheus-endpoint>
