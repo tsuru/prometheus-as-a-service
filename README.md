@@ -23,12 +23,12 @@ tsuru service-instance-bind prometheus my-instance -a my-app
 ```
 
 ## The Project
-First, it was necessary to build a custom prometheus' docker image because we needed to change the custom target to the app by setting an environment var in Tsuru.  
-It was built on the prometheus official repo[3]  
-So we needed to build this image using 'make' and running 'docker build' with the Dockerfile the repo provides.  
-We had to create a shell script(prometheus.sh) to get the tsuru's enviroment and set it to the default prometheus target  
-We've created an api to handle all the calls from tsuru's api to create/remove/update/bind/unbind prometheus' service instances.  
-We also had to create the service on tsuru using this doc[4]  
+- First, it was necessary to build a custom prometheus' docker image because we needed to change the custom target to the app by setting an environment var in Tsuru.  
+- It was built on the prometheus official repo[3]  
+- So we needed to build this image using 'make' and running 'docker build' with the Dockerfile the repo provides.  
+- We had to create a shell script(prometheus.sh) to get the tsuru's enviroment and set it to the default prometheus target  
+- We've created an api to handle all the calls from tsuru's api to create/remove/update/bind/unbind prometheus' service instances.  
+- We also had to create the service on tsuru using this doc[4]  
 
 ## Creating an app with metrics exposed
 There's an example of app created for testing purposes[5]  
